@@ -156,7 +156,7 @@ class _AddToCartState extends State<AddToCart> {
       children: [
         DropdownButtonFormField(
           value: colorValue,
-          hint: Text('Color', style: TextStyle(fontSize: 12)),
+          hint: Text('Taste', style: TextStyle(fontSize: 12)),
           onChanged: (String? e) {
             setState(() {
               colorValue = e;

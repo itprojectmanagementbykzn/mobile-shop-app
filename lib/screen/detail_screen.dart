@@ -16,7 +16,7 @@ class DetailScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: detailTextBackgroundColor,
       appBar: AppBar(
-        title: Text("Wutt Hmone Myanmar Online Store", style: TextStyle(color: Colors.black, fontSize: 14),),
+        title: Text("KZN Restaurant", style: TextStyle(color: Colors.black, fontSize: 14),),
         elevation: 5,
         backgroundColor: detailBackgroundColor,
         leading: IconButton(
@@ -148,7 +148,7 @@ class _AddToCartState extends State<AddToCart> {
       children: [
         DropdownButtonFormField(
           value: colorValue,
-          hint: Text('Color', style: TextStyle(fontSize: 12),),
+          hint: Text('Taste', style: TextStyle(fontSize: 12),),
           onChanged: (String? e) {
             colorValue = e;
           },

@@ -98,7 +98,7 @@ class _HomeScreenState extends State<HomeScreen> {
         backgroundColor: appBarColor,
         elevation: 0,
         title: Text(
-          "Wutt Hmone",
+          "KZN Restaurant",
           style: TextStyle(
             fontSize: 20,
             fontWeight: FontWeight.bold,

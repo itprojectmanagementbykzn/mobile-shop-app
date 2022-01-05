@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.kzn.wutthmone">
+    package="com.kzn.restaurant">
    <application
-        android:label="Wutt Hmone"
+        android:label="KZN Restaurant"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

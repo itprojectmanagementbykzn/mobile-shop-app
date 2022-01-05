@@ -39,7 +39,7 @@ class _UploadItemState extends State<UploadItem> {
     return Scaffold(
       backgroundColor: scaffoldBackground,
       appBar: AppBar(
-        title: Text("Wutt Hmone Myanmar Online Store", style: TextStyle(color: Colors.black, fontSize: 14),),
+        title: Text("KZN Restaurant", style: TextStyle(color: Colors.black, fontSize: 14),),
         elevation: 5,
         backgroundColor: detailBackgroundColor,
         leading: IconButton(

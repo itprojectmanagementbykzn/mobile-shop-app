@@ -309,14 +309,14 @@ class HomeController extends GetxController {
         authorized.value = false;
       } else {
         authorized.value = true;
-        // await _database.write(
-        //   userCollection,
-        //   data: {
-        //     'uid': _.uid,
-        //     'phone': _.phoneNumber,
-        //   },
-        //   path: _.uid,
-        // );
+        await _database.write(
+          userCollection,
+          data: {
+            'uid': _.uid,
+            'phone': _.phoneNumber,
+          },
+          path: _.uid,
+        );
         final DocumentSnapshot<Map<String, dynamic>> _data =
         await _database.read(userCollection, path: _.uid);
         user.value = user.value.update(

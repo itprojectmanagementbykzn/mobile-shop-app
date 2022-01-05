@@ -16,7 +16,7 @@ class ProfileView extends StatelessWidget {
           : ListView(
         children: [
           Image.asset(
-            "assets/wutthmone.png", height:200,),
+            "assets/appicon.png", height:200,),
 
           Padding(
             padding: const EdgeInsets.only(left: 20, right: 20, top: 20),
@@ -78,7 +78,7 @@ class _LoginUser extends StatelessWidget {
                     bottom: 20,
                   ),
                   child: Image.asset(
-                    "assets/wutthmone.png",
+                    "assets/appicon.png",
                     width: 100,
                     height: 100,
                   ),

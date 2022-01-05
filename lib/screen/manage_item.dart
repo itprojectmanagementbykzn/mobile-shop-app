@@ -29,7 +29,7 @@ class _ManageItemState extends State<ManageItem> {
     return Scaffold(
       backgroundColor: scaffoldBackground,
       appBar: AppBar(
-        title: Text("Wutt Hmone Myanmar Online Store",
+        title: Text("KZN Restaurant",
           style: TextStyle(color: Colors.black,
               fontSize: 14),),
         elevation: 5,
